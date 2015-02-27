@@ -2,163 +2,57 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/setting_bg"
-    android:orientation="vertical">
+    android:background="@drawable/beauty_bg"
+    android:orientation="vertical" >
 
     <include
         android:id="@+id/rlayout_title"
         layout="@layout/custom_title_bar" />
- 
-	
-	<ScrollView
-	    android:layout_width="fill_parent"
-	    android:layout_height="wrap_content"
-	    android:scrollbars="vertical"
-	    android:layout_below="@+id/rlayout_title"
-	    android:layout_marginTop="30dip"
-	    android:layout_marginLeft="10.0dip"
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlayout_title"
+        android:layout_marginLeft="10.0dip"
         android:layout_marginRight="10.0dip"
-	 >
-	   <LinearLayout 
-			android:orientation="vertical"
-		    android:layout_width="fill_parent" 
-		    android:layout_height="wrap_content"
-		    >    
-		    
-        <Button
-            android:id="@+id/btn_save"
-            android:layout_width="fill_parent"
-            android:layout_height="50dip"
-            android:background="@drawable/circle_list_top"
-            android:drawableLeft="@drawable/floder_icon"
-            android:drawablePadding="15dip"
-            android:drawableRight="@drawable/setting_arrow"
-            android:gravity="fill_vertical"
-            android:layout_marginTop="20dip"
-            android:paddingLeft="15dip"
-            android:paddingRight="15dip"
-            android:paddingTop="10dip"
-            android:paddingBottom="10dip"
-            android:text="保存到相册"
-            android:textColor="@color/black"
-            android:textSize="18dip" />       
-	       
-        <Button
-            android:id="@+id/btn_share2Tencent"
+        android:layout_marginTop="30dip"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/circle_list_top"
-            android:drawableLeft="@drawable/logo_tencent"
-            android:drawablePadding="15dip"
-            android:drawableRight="@drawable/setting_arrow"
-            android:gravity="fill_vertical"
-            android:layout_marginTop="20dip"
-            android:paddingLeft="15dip"
-            android:paddingRight="15dip"
-            android:paddingTop="10dip"
-            android:paddingBottom="10dip"
-            android:text="分享到腾讯微博"
-            android:textColor="@color/black"
-            android:textSize="18dip" />  
-        
-        <View 
-            android:id="@+id/divider_1"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content" 
-        	android:layout_marginLeft="3.0dip"
-        	android:layout_marginRight="3.0dip"
-            android:background="@drawable/yiji_divider" 
-            />
-        <Button
-            android:id="@+id/btn_share2Sina"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/circle_list_mid"
-            android:drawableLeft="@drawable/logo_sina"
-            android:drawablePadding="15dip"
-            android:drawableRight="@drawable/setting_arrow"
-            android:gravity="fill_vertical"
-            android:paddingLeft="15dip"
-            android:paddingRight="15dip"
-            android:paddingTop="10dip"
-            android:paddingBottom="10dip"
-            android:text="分享到新浪"
-            android:textColor="@color/black"
-            android:textSize="18dip" />        
-        
-        <View 
-            android:id="@+id/divider_2"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content" 
-        	android:layout_marginLeft="3.0dip"
-        	android:layout_marginRight="3.0dip"
-            android:background="@drawable/yiji_divider" 
-            />        
-        
-            
-        <Button
-            android:id="@+id/btn_share2Renren"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/circle_list_mid"
-            android:drawableLeft="@drawable/logo_renren"
-            android:drawablePadding="15dip"
-            android:drawableRight="@drawable/setting_arrow"
-            android:gravity="fill_vertical"
-            android:paddingLeft="15dip"
-            android:paddingRight="15dip"
-            android:paddingTop="10dip"
-            android:paddingBottom="10dip"
-            android:text="分享到人人"
-            android:textColor="@color/black"
-            android:textSize="18dip" />   
-            
-        <View 
-            android:id="@+id/divider_3"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content" 
-        	android:layout_marginLeft="3.0dip"
-        	android:layout_marginRight="3.0dip"
-            android:background="@drawable/yiji_divider" 
-            />        
-        
-            
-         <Button
-            android:id="@+id/btn_share2Douban"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/circle_list_bottom"
-            android:drawableLeft="@drawable/logo_douban"
-            android:drawablePadding="15dip"
-            android:drawableRight="@drawable/setting_arrow"
-            android:gravity="fill_vertical"
-            android:paddingLeft="15dip"
-            android:paddingRight="15dip"
-            android:paddingTop="10dip"
-            android:paddingBottom="10dip"
-            android:text="分享到豆瓣"
-            android:textColor="@color/black"
-            android:textSize="18dip" />           
-        
-         
-         <Button
-            android:id="@+id/btn_share2more"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/circle_list_bottom"
-            android:drawableLeft="@drawable/logo_other"
-            android:drawablePadding="15dip"
-            android:drawableRight="@drawable/setting_arrow"
-            android:gravity="fill_vertical"
-            android:padding="15dip"
-            android:text="分享到更多"
-            android:textColor="@color/black"
-            android:textSize="18dip" />         	       
-    
- 	</LinearLayout>		
-   </ScrollView>   
-    
-    
-    
-    
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dip"
+                android:background="@drawable/settings_line1"
+                android:drawableLeft="@drawable/floder_icon"
+                android:drawablePadding="15dip"
+                android:drawableRight="@drawable/setting_arrow"
+                android:gravity="fill_vertical"
+                android:padding="15dip"
+                android:text="保存到相册"
+                android:textColor="@color/black"
+                android:textSize="18dip" />
+
+            <Button
+                android:id="@+id/btn_share2more"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/settings_line1"
+                android:drawableLeft="@drawable/logo_other"
+                android:drawablePadding="15dip"
+                android:drawableRight="@drawable/setting_arrow"
+                android:gravity="fill_vertical"
+                android:padding="15dip"
+                android:text="分享到更多"
+                android:textColor="@color/black"
+                android:textSize="18dip" />
+        </LinearLayout>
+    </ScrollView>
+
 </RelativeLayout>
