@@ -1,0 +1,23 @@
+<resources>
+
+   
+    <array name="pip_type1_img">
+        <item>@drawable/pip_frame_0</item>
+        <item>@drawable/pip_frame_1</item>
+        <item>@drawable/pip_frame_2</item>
+        <item>@drawable/pip_frame_3</item>
+        <item>@drawable/pip_frame_4</item>
+        <item>@drawable/pip_frame_5</item>
+        <item>@drawable/pip_frame_6</item>
+        <item>@drawable/pip_frame_7</item>
+        <item>@drawable/pip_frame_8</item>
+        <item>@drawable/pip_frame_9</item>
+        <item>@drawable/pip_frame_10</item>
+        <item>@drawable/pip_frame_11</item>
+        <item>@drawable/pip_frame_12</item>
+        <item>@drawable/pip_frame_13</item>
+        <item>@drawable/pip_frame_14</item>
+    </array>
+
+
+</resources>

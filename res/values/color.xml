@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#080808</color>
+    <color name="transparent">#00000000</color>
+    <color name="gray">#909090</color>
+    <color name="dividetext">#595959</color>
+    <color name="settingtext_a">#696969</color>
+    <color name="orange">#fe992c</color>
+    <color name="divideline">#cccfcf</color>
+    <color name="title_bg">#ff54acea</color>
+    <color name="setting_bg">#ffe3e6e8</color>
+    <color name="primary_text_black_color">#ff000000</color>
+    <color name="primary_text_dark_gray_color">#ff626262</color>
+    <color name="primary_text_gray_color">#7f000000</color>
+    <color name="clip_menu_bg">#50000000</color>
+    
+    <color name="blue_title">#55cdff</color>
+    
+    <color name="red_title">#e75280</color>
+    <color name="green_txt">#82c829</color>
+    
+</resources>

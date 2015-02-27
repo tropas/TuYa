@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">图丫</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="setting_title">设置</string>
+    <string name="setting_gongneng">功能设置</string>
+    <string name="setting_quality">画质设置</string>
+    <string name="setting_save">保存设置</string>
+    <string name="setting_save_column1">自动保存到相册</string>
+    <string name="setting_save_column2">保存路径</string>
+    <string name="setting_other">其他</string>
+    <string name="setting_update">检查更新</string>
+    <string name="setting_about">关于图丫</string>
+</resources>
