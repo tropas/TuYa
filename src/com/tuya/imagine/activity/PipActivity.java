@@ -168,11 +168,10 @@ public class PipActivity extends BaseActivity implements OnClickListener, OnItem
 			}
 
 			MyData.PicPath = filePath;
-
 			mBmpSrc = BitmapUtil.getBitmap(MyData.PicPath, Config.ARGB_8888, 1200);
 			if (!BitmapUtil.isValid(mBmpSrc)) {
 				mBmpSrc = BitmapUtil.getBitmap(MyData.PicPath, Config.ARGB_8888, 1200);
-				
+
 			}
 			showView.changePic(mBmpSrc);
 		}
